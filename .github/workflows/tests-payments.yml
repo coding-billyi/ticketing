@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Run tests in Auth
+      - name: Run tests in payments
         run: cd payments && npm install && npm run test:ci
